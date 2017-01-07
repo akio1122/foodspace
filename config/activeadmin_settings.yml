@@ -1,0 +1,146 @@
+# ================================================================================
+#   activeadmin_settings.yml
+#   ---configuration file v1.0---
+# ================================================================================
+#
+# This file is used to store a list of activeadmin settings. Settings are split
+# into groups like this:
+# 
+# Here is a setting template:
+#   General Group:
+#     Setting Title:
+#       type:            string (default) / text / file / link
+#       description:     setting one sentence description
+#       default_value:   default value is used when setting value is blank
+#
+# Type details: 
+#   Link setting value expected to be in a format of: (link title) http://link.url
+#
+# ================================================================================
+
+
+General:
+  Facebook:
+    type:           string
+    description:    Used for the websites facebook link
+    default_value:  https://www.facebook.com/
+
+  Twitter:
+    type:           string
+    description:    Used for the websites twitter link
+    default_value:  https://www.twitter.com/
+
+  Instagram:
+    type:           string
+    description:    Used for the websites instagram link
+    default_value:  https://www.twitter.com/
+
+###################################################################################
+###################################################################################
+
+Home Page:
+  Home Title:
+    description:    Used as value for header meta tag on homepage
+    default_value:  Home Page
+
+  Home Description:
+    description:    Used as value for header meta tag on homepage
+    default_value:  Food space.
+
+  Home Vendor Image:
+    type:           file
+    description:    Used as text for vendor on homepage
+    default_value:  /images/build/1.jpg
+
+  Home Vendor Description:
+    type:           text
+    description:    Used as text for vendor on homepage
+    default_value:  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+  Home Story Image:
+    type:           file
+    description:    Used as text for vendor on homepage
+    default_value:  /images/build/2.jpg
+
+  Home Story Description:
+    type:           text
+    description:    Used as text for vendor on homepage
+    default_value:  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+  ###################################################################################
+  ###################################################################################
+
+  Contact General Description:
+    type:           text
+    description:    Used as text for description on general contact form
+    default_value:  "General Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+  Contact Vendor Description:
+    type:           text
+    description:    Used as text for description on vendor contact form (contact page)
+    default_value:  "Vendor Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+  Contact Booking Description:
+    type:           text
+    description:    Used as text for for description on booking contact form
+    default_value:  "Booking Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+  Contact Vendor Single Description:
+    type:           text
+    description:    Used as text for description on vendor contact form (vendor page)
+    default_value:  "Vendor Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+
+  ###################################################################################
+  ###################################################################################
+
+SEO Pages:
+  About Page Title:
+    description:    Default meta title
+    default_value:    Default meta title
+
+  About Page Description:
+    description:    Default meta description
+    default_value:    Default meta description
+  ###################################################################################
+SEO Archives:
+  Search Title:
+    description:    Default meta title
+    default_value:    Default meta title
+
+  Search Description:
+    description:    Default meta description
+    default_value:    Default meta description
+  ###################################################################################
+  Vendors Title:
+    description:    Default meta title
+    default_value:    Default meta title
+
+  Vendors Description:
+    description:    Default meta description
+    default_value:    Default meta description
+  ###################################################################################
+  Stories Title:
+    description:    Default meta title
+    default_value:    Default meta title
+
+  Stories Description:
+    description:    Default meta description
+    default_value:    Default meta description
+  ###################################################################################
+  Upcoming Events Title:
+    description:    Default meta title
+    default_value:    Default meta title
+
+  Upcoming Events Description:
+    description:    Default meta description
+    default_value:    Default meta description
+  ###################################################################################
+  Upcoming Events Title:
+    description:    Default meta title
+    default_value:    Default meta title
+
+  Upcoming Events Description:
+    description:    Default meta description
+    default_value:    Default meta description
+  ###################################################################################
